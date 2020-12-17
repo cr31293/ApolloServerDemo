@@ -3,7 +3,7 @@ const  { ApolloServer , gql } = require('apollo-server');
 const typeDefs = gql`
     type Book {
         title: String
-        author: Author
+        author: String
     }
 
     type Author {
